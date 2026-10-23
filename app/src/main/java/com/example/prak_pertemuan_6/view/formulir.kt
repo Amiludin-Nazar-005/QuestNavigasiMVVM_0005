@@ -29,4 +29,7 @@ import androidx.core.R
 fun FormIsian(
     jenisK: List<String> = listOf("Laki-laki", "Perempuan"),
     OnSubmitBtnClick: () -> Unit
-)}
+) {
+    Scaffold(
+        modifier = Modifier,
+
